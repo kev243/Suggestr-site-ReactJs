@@ -3,6 +3,7 @@ import Navbar from '../components/navbar/Navbar'
 import Header from '../containers/header/Header'
 import Cta from '../containers/cta/Cta'
 import Value from '../containers/value/Value';
+import Research from '../containers/research/Research';
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Header/>
             <Cta/>
             <Value/>
+            <Research/>
         </div>
     );
 };
