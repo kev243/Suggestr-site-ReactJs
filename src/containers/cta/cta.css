@@ -42,9 +42,10 @@
 
 
 }
-/* .cta-content-left-text{
-    width: 500px;
-} */
+
+
+
+
 
 .cta-content-left-text p {
     margin-bottom: 8px;
@@ -113,6 +114,13 @@
     line-height: 30px;
     font-weight: 300;
     letter-spacing: -.025em;
+}
+
+.cta-line{
+    background: #e7e5e5;
+    height: 1px;
+    margin-top: 30px ;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width:1450px){
