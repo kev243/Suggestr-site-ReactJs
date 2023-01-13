@@ -5,6 +5,7 @@ import Cta from '../containers/cta/Cta'
 import Value from '../containers/value/Value';
 import Research from '../containers/research/Research';
 import Getting from '../containers/getting/Getting';
+import FAQ from '../containers/faq/FAQ';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Value/>
             <Research/>
             <Getting/>
+            <FAQ/>
         </div>
     );
 };

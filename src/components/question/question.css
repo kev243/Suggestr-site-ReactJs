@@ -1,0 +1,29 @@
+.question-container{
+    height: 100%;
+    width: 100%;
+    background: #f1f4f6;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  
+}
+
+
+.question-content, p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+
+}
+
+.question-content h4{
+ max-width: 450px;
+ 
+}
+
+
+
+
+

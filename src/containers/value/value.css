@@ -23,7 +23,7 @@
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: -.025em;
-
+    justify-content: center;
 }
 
 .value-content h2 {
