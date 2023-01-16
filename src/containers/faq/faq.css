@@ -17,9 +17,6 @@
     font-size: 21px;
     color: #8a8a8e;
     justify-content: center;
-   
-    
-
 
 }
 
@@ -45,4 +42,56 @@
 
 .faq-questions{
     max-width: 600px;
+    
 }
+
+@media screen and (max-width: 540px) {
+ 
+
+    
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .faq-container-top h3 {
+        font-size: 75px;
+        max-width: 700px;
+      
+    
+    }
+
+    .faq-container-top p {
+        font-size: 19px;
+      
+    }
+    
+
+}
+
+
+@media screen and (max-width: 414px) {
+
+.faq-contaier-down {
+
+        padding: 10px;
+    }
+
+    .faq-container-top h3 {
+
+        font-size: 30px;
+
+    }
+
+    .faq-container-top p {
+
+       font-size: 15px;
+
+    }
+
+    .faq-container-top {
+        padding: 0;
+    }
+
+}
+
