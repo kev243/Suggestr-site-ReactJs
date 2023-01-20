@@ -6,6 +6,7 @@ import Value from '../containers/value/Value';
 import Research from '../containers/research/Research';
 import Getting from '../containers/getting/Getting';
 import FAQ from '../containers/faq/FAQ';
+import Tariffication from '../containers/tariffication/Tariffication';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <Research/>
             <Getting/>
             <FAQ/>
+            <Tariffication/>
         </div>
     );
 };

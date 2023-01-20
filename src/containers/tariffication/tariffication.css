@@ -1,0 +1,141 @@
+.tarif-container {
+    margin: 0 auto;
+
+}
+
+.bacground-container {
+    background-image: linear-gradient(24deg, #414380, transparent 21%), linear-gradient(198deg, #ffdfac 11%, transparent 18%), linear-gradient(50deg, #923880 5%, #ff083f 32%, #fb5e4f 35%, #f85448 65%, #fba64b 83%, #ffa745 91%);
+    ;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    max-width: 1900px;
+    margin: 0 auto;
+    /* align-items: center; */
+
+    padding: 150px;
+}
+
+.left-top h3 {
+    max-width: 440px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 600;
+    letter-spacing: -.04em;
+}
+
+.left-top p {
+    z-index: 5;
+    max-width: 560px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: b400;
+    letter-spacing: -.02em;
+    padding: 0;
+}
+
+.left-down-top {
+
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 24px;
+
+
+}
+
+
+
+.left-down-top h4 {
+
+    font-weight: 600;
+    letter-spacing: -.01em;
+    padding-right: 10px;
+
+}
+
+.div {
+    height: 1px;
+    width: 100%;
+    background: rgb(240, 239, 239);
+    flex: 1;
+
+
+
+
+}
+
+
+.container-left {
+    background: white;
+    padding: 30px;
+    border: none;
+    flex: 2;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+}
+
+.bacground-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+
+.container-right {
+    background: #f8d9d7;
+    padding: 30px;
+
+    position: relative;
+    border-top-right-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+    flex: 1;
+
+
+}
+
+.content-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+}
+
+.content-right h3 {
+   height: 100%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.container-right button{
+    background: #ff083f;
+    color: white;
+   padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    border: none;
+
+    
+
+}

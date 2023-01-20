@@ -14,11 +14,7 @@ const Question = ({question}) => {
         </div>
 
         {
-            isOpen? <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit. Dolorem tenetur omnis repellendus odio offi
-            cia debitis ducimus dicta placeat aspernatur. Omnis
-             architecto illum vero ratione dolor minus necessitatibus
-              harum earum cum!</p> : ''
+            isOpen? <p>{question.info}</p> : ''
         }
           
         

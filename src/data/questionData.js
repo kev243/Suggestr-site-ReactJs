@@ -3,7 +3,7 @@ export const questions = [
       id: 1,
       title: "Puis-je essayer Suggestr avant de payer ?",
       info:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui facere in labore maxime, assumenda iure sed tenetur alias omnis eveniet similique laborum, neque porro unde ducimus officiis animi vitae! Quidem."
+        "kevin ipsum dolor, sit amet consectetur adipisicing elit. Qui facere in labore maxime, assumenda iure sed tenetur alias omnis eveniet similique laborum, neque porro unde ducimus officiis animi vitae! Quidem."
     },
     {
       id: 2,
