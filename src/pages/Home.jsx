@@ -7,6 +7,7 @@ import Research from '../containers/research/Research';
 import Getting from '../containers/getting/Getting';
 import FAQ from '../containers/faq/FAQ';
 import Tariffication from '../containers/tariffication/Tariffication';
+import Footer from '../components/footer/Footer';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
             <Getting/>
             <FAQ/>
             <Tariffication/>
+            <Footer/>
         </div>
     );
 };
