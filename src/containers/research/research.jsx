@@ -21,12 +21,6 @@ const research = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
         </div>
     );
 };

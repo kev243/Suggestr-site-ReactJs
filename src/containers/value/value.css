@@ -14,6 +14,9 @@
     align-items: center;
     text-align: center;
     max-width: 950px;
+   
+  
+   
 }
 
 .value-content p {
@@ -97,27 +100,46 @@
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 423px) {
 
     .value-content h2 {
-        width: 300px;
+        width: 400px;
         font-size: 48px;
         line-height: 1.05;
+        padding: 10px;
     }
 
     .value-content h4 {
         font-size: 20px;
-        width: 300px;
+        width: 400px;
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
         -ms-hyphens: auto;
         -o-hyphens: auto;
         hyphens: auto;
+        padding: 10px;
 
     }
 
     .value-content p {
         font-size: 24px;
 
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .value-content h2 {
+    
+        width: 340px;
+        font-size: 38px;
+        line-height: 1.05;
+   
+    }
+
+     .value-content h4 {
+       width: 320px;
+       font-size: 17px;
+        
     }
 }
