@@ -1,10 +1,12 @@
 import React from 'react';
+import DetailPrice from '../components/detailPrice/DetailPrice';
 import Navbar from '../components/navbar/Navbar';
 
 const Pricing = () => {
     return (
-        <div>
+        <div className='container-pricing'>
             <Navbar/>
+            <DetailPrice/>
         </div>
     );
 };

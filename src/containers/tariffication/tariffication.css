@@ -4,7 +4,7 @@
 }
 
 .bacground-container {
-    background-image: linear-gradient(24deg, #414380, transparent 21%), linear-gradient(198deg, #ffdfac 11%, transparent 18%), linear-gradient(50deg, #923880 5%, #ff083f 32%, #fb5e4f 35%, #f85448 65%, #fba64b 83%, #ffa745 91%);
+    background: linear-gradient(24deg, #414380, transparent 21%), linear-gradient(198deg, #ffdfac 11%, transparent 18%), linear-gradient(50deg, #923880 5%, #ff083f 32%, #fb5e4f 35%, #f85448 65%, #fba64b 83%, #ffa745 91%);
     ;
     height: 100%;
     width: 100%;
@@ -17,7 +17,9 @@
     flex-direction: row;
     height: 100%;
     padding: 90px;
+   
 }
+
 
 .left-top h3 {
     max-width: 440px;
