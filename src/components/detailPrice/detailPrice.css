@@ -109,9 +109,6 @@
     grid-gap: 1rem;
 }
 
-.big-detail .question-container {
-    background: white
-}
 
 @media screen and (max-width: 912px) {
 
