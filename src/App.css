@@ -1,21 +1,30 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0 ;
+  margin: 0;
   scroll-behavior: smooth;
   font-family: var(--font-family);
 }
 
 body {
   background: var(--color-bg);
+
+
+
+
   /* background:#f1f4f6;; */
 }
-.container-pricing{
+
+.container-pricing {
   background-color: #f1f4f6;
 
+
+
 }
-.container-pricing  .navbar-links{
+
+.container-pricing .navbar-links {
   background: white;
+
 }
 
 
@@ -33,29 +42,31 @@ a {
 }
 
 .scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    transform: scale(0.5);
   }
+
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -76,5 +87,5 @@ a {
 
   .section__margin {
     margin: 4rem 2rem;
-  }  
+  }
 }

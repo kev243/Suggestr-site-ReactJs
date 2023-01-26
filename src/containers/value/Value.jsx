@@ -3,8 +3,8 @@ import "./value.css";
 
 const Value = () => {
   return (
-    <div className="value-container">
-      <div className="value-content section__margin ">
+    <div className="value-container ">
+      <div className="value-content section__margin">
         <p>Boostez votre magasin</p>
 
         <h2>avec une IA qui peut voir </h2>

@@ -10,6 +10,7 @@ const CardPrice = ({ text_title, price, devise, text, text_btn }) => {
 
       <div className="price">
         <p>{price}</p>
+        {/* <p>$</p> */}
         <p>{devise}</p>
       </div>
       <div className="subtext">

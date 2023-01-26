@@ -7,9 +7,9 @@
 }
 
 .faq-container-top {
-  text-align: center;
+    text-align: center;
     padding: 20px;
-   
+
 }
 
 .faq-container-top p {
@@ -38,34 +38,39 @@
     padding: 55px;
 }
 
-.faq-questions{
+.faq-questions {
     max-width: 600px;
-    
+
 }
 
 
 
 
 @media screen and (max-width: 768px) {
+
+
+
     .faq-container-top h3 {
-        font-size: 75px;
+        font-size: 39px;
         max-width: 700px;
-      
-    
+
+
     }
 
     .faq-container-top p {
         font-size: 19px;
-      
+
     }
-    
+
+
+
 
 }
 
 
 @media screen and (max-width: 414px) {
 
-.faq-contaier-down {
+    .faq-contaier-down {
 
         padding: 10px;
     }
@@ -78,7 +83,7 @@
 
     .faq-container-top p {
 
-       font-size: 15px;
+        font-size: 15px;
 
     }
 
@@ -87,4 +92,3 @@
     }
 
 }
-

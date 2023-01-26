@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import instagram from "../../assets/instagram.png";
 import twitterColor from "../../assets/twitterColor.png";
-import logo from "../../assets/logo.png";
+import logGood from "../../assets/logGood.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="big-footer section__padding">
         <div className="footer-content ">
           <div className="footer-start">
-            <img src={logo} alt="logo" />
+            <img src={logGood} alt="logo" />
             <p>
               Amazon-quality product recommendations for your brand. Increased
               conversions and higher AOV. Easy 3-min setup.
@@ -27,7 +27,6 @@ const Footer = () => {
             <Link to="#">Shopify App FAQ</Link>
             <Link to="#">Terms of Use</Link>
             <Link to="#">Privacy Policy</Link>
-
           </div>
         </div>
 

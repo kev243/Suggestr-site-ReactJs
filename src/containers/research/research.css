@@ -1,69 +1,70 @@
-.research-container{
-   
+.research-container {
+
   display: flex;
-    justify-content: center;
-    align-items: center;
- 
-  
-   
-   
- 
-  
-}
-
-.research-content{
+  justify-content: center;
   align-items: center;
-    background: var(--color-text);
-    padding: 60px;
-    border-radius: 30px;
-  
-    
- 
-    justify-content: center;
-    max-width: 1500px;
-    /* width: 100%; */
-    display: flex;
-    flex-direction: row;
-  
+
+
+
+
+
+
+}
+
+.research-content {
+  align-items: center;
+  background: var(--color-text);
+  padding: 60px;
+  border-radius: 30px;
+  margin: 0 auto;
+
+
+
+  justify-content: center;
+  max-width: 1500px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+
 
 }
 
 
 
-.research-left{
-    width: 600px;
-    max-width: 1200px;
-    padding: 10px;
- 
+.research-left {
+  width: 600px;
+  max-width: 1200px;
+  padding: 10px;
+
 }
 
-.research-left p{
-    margin-top: 4px;
-    margin-bottom: 8px;
-    color: #8a8a8e;
-    font-size: 21px;
-    line-height: 1.2;
-    font-weight: 500;
-    letter-spacing: -.02em;
-    padding: 0px;
-     
-  }
+.research-left p {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  color: #8a8a8e;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -.02em;
+  padding: 0px;
 
-.research-left h3{
+}
+
+.research-left h3 {
   font-size: 32px;
   font-weight: 500;
   color: #fff;
-   
+
 }
 
 
 
 
-.research-right-content{
-    flex: 1;
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+.research-right-content {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
 }
 
 
@@ -72,27 +73,26 @@
 
 
 
- 
 
- @media screen and (max-width:932px){
-  
 
-  .research-content{
-   flex-direction: column;
- 
+@media screen and (max-width:932px) {
+
+
+  .research-content {
+    flex-direction: column;
+
   }
 
 
-  .research-right
-  {
-   padding-top: 40px;
+  .research-right {
+    padding-top: 40px;
     margin: 0 auto;
-   
+
   }
 
-  .research-left{
+  .research-left {
     text-align: center;
-   margin: 0 auto;
+    margin: 0 auto;
     width: 500px;
   }
 
@@ -100,92 +100,104 @@
 }
 
 
- @media screen and (max-width:765px){
+@media screen and (max-width:765px) {
 
-  .research-right-content{
-   
+  .research-right-content {
+
     grid-template-columns: repeat(1, 1fr);
 
-}
-.research-content{
-  flex-direction: column;
+  }
 
- }
- .research-left{
-  text-align: center;
- margin: 0 auto;
-  width: 500px;
-}
-.research-left p{
-  
-  font-size: 19px;
-  padding-bottom: 20px;
-  
-   
-}
+  .research-content {
+    flex-direction: column;
+
+  }
+
+  .research-left {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+  }
+
+  .research-left p {
+
+    font-size: 19px;
+    padding-bottom: 20px;
 
 
-.research-left h3{
-  font-size: 20px;
-  padding-bottom: 20px;
+  }
 
-}
 
-.research-container{
-  padding: 20px;
-        margin-top:60px
-}
+  .research-left h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
 
-.research-left{
-  text-align: center;
+  }
 
-  width: 330px;
-}
+  .research-container {
+    padding: 20px;
+    margin-top: 60px
+  }
 
-.research-content{
+  .research-left {
+    text-align: center;
+
+    width: 330px;
+  }
+
+  .research-content {
 
     padding: 20px;
-   
-  
+
+
+
+  }
+
+  .research-right-content .article_text h3 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .research-right-content .article_text h3 {
+    font-size: 17px;
+
+  }
+
+  .research-right-content {
+    padding-bottom: 20px;
+  }
+
 
 }
-.research-right-content .article_text h3{
-  font-size: 20px;
-  width: 100%;
-}
 
-.research-right-content .article_text h3{
-  font-size: 17px;
-  
-}
+@media screen and (max-width:375px) {
 
-.research-right-content{
-  padding-bottom: 20px;
-}
-
-
- }
-
- @media screen and (max-width:375px){
-
-  .research-left{
+  .research-left {
     text-align: center;
-  
+
     width: 319px;
   }
-  
+
+  .research-content {
+
+    margin: 0 auto;
+
+  }
+
+  .research-container {
+    margin: 0 auto;
+  }
+
 
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:360px) {
 
-  .research-left{
+  .research-left {
     text-align: center;
-  
+
     width: 300px;
   }
-  
+
 
 }
-
-

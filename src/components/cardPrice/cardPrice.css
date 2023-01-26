@@ -1,4 +1,4 @@
-.card-one{
+.card-one {
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(238, 235, 235);
@@ -9,29 +9,32 @@
     justify-content: center;
     margin-right: 20px;
     max-width: 500px;
-    
-    
+
+
+
+
 
 }
 
-.card-one:hover{
+.card-one:hover {
     border: 1px solid black;
     border-radius: 20px;
 
 }
 
 .title {
-   
+
     text-align: center;
     max-width: 100px;
     margin: 0 auto;
     padding-bottom: 50px;
 
-  
-    
+
+
 
 }
-.title h4{
+
+.title h4 {
     z-index: 5;
     margin-bottom: 4px;
     color: #8a8a8e;
@@ -43,16 +46,19 @@
 
 
 
-.card-one .price{
+.card-one .price {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
     padding-bottom: 30px;
-   
+    justify-content: space-evenly;
 
-    
+
+
+
 }
+
 /* .card-one .price p:nth-child(1){
    color: var(--color-text);
     font-size: 70px;
@@ -61,50 +67,116 @@
     letter-spacing: -.04em;
 } */
 
-/* .card-one .price p:nth-child(2){
+.card-one .price p:nth-child(1) {
     color: var(--color-text);
-    align-items: center;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -.04em;
+}
+
+/* .card-one .price p:nth-child(2) {
+    color: var(--color-text);
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -.04em;
 } */
 
-.subtext p{
-   color: #8a8a8e;
+.subtext p {
+    color: #8a8a8e;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -.01em;
     padding-bottom: 45px;
-   
+
 }
 
-button{
+button {
     border: none;
     padding: 8px 16px;
     border-radius: 30px;
-    background:#007aff; 
+    background: #007aff;
     color: white;
     line-height: 1.25;
     font-weight: 500;
     text-align: center;
     letter-spacing: -.02em;
     text-decoration: none;
+    cursor: pointer;
+
 }
 
-.card-one .price p:nth-child(1){
+button:hover {
+    background: var(--color-text);
+}
+
+.card-one .price p:nth-child(1) {
     color: var(--color-text);
-     font-size: 72px;
-     line-height: 1;
-     font-weight: 800;
-     letter-spacing: -.04em;
- }
- 
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: -.04em;
+}
+
+@media screen and (max-width: 912px) {
+
+    .card-one .price p:nth-child(1) {
+        font-size: 70px;
+    }
+
+    button {
+        font-size: 17px;
+    }
+
+    .subtext p {
+        font-size: 15px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .card-one {
+        padding: 20px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 765px) {
+
+    .card-one {
+
+        margin-right: 0px;
+        margin-bottom: 30px;
+
+    }
+
+    button {
+        margin-bottom: 20px;
+
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .content-header {
+        font-size: 25px;
+        line-height: 1.1;
+        padding-bottom: 20px;
+
+    }
+
+    .card-one .price p:nth-child(1) {
+
+        font-size: 50px;
+
+    }
 
 
 
 
-
-
-
-
-
+}
