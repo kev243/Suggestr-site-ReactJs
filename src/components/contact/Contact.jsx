@@ -8,6 +8,15 @@ import load from "../../assets/load.png";
 const Contact = () => {
   return (
     <div className="container-contact section__padding">
+      <div className="content-contact-off">
+        <div className="content-img">
+          <img src={contact} alt="" />
+        </div>
+        <div className="contact-text">
+          <p>Entrer en contact</p>
+          <h3>Faisons quelque chose de grand ensemble</h3>
+        </div>
+      </div>
       <div className="contact-top">
         <div className="content-left-contact">
           <img src={contact} alt="" />
