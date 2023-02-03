@@ -4,10 +4,20 @@ import contact from "../../assets/contact.png";
 import pays from "../../assets/pays.png";
 import recherche from "../../assets/recherche.png";
 import load from "../../assets/load.png";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="container-contact section__padding">
+    <motion.div
+      className="container-contact section__padding"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.4,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+    >
       <div className="content-contact-off">
         <div className="content-img">
           <img src={contact} alt="" />
@@ -60,7 +70,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,3 +1,10 @@
+.container-contact {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+
+
 .contact-top {
     display: flex;
     flex-direction: row;
