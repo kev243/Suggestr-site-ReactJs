@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./faq.css";
 import { questions } from "../../data/questionData";
 import Question from "../../components/question/Question";
