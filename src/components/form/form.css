@@ -62,6 +62,7 @@ form .input-email-number input:nth-child(1) {
     background: #007aff;
     color: white;
 
+
 }
 
 .text-form input[type=submit]:hover {
@@ -72,6 +73,18 @@ form .input-email-number input:nth-child(1) {
 @media screen and (max-width: 975px) {
     form .input-name input {
         width: 135px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .text-form input[type=submit] {
+        height: 50px;
+        border-radius: 0px;
+        border: none;
+
+
     }
 
 
